@@ -63,7 +63,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:id="@+id/Monday"/>
+                        android:id="@+id/checkMonday"/>
 
                 </TableRow>
 
@@ -79,7 +79,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:id="@+id/Tuesday"/>
+                        android:id="@+id/checkTuesday"/>
 
                 </TableRow>
 
@@ -95,7 +95,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:id="@+id/Wednesday"/>
+                        android:id="@+id/checkWednesday"/>
 
                 </TableRow>
                 <TableRow android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:id="@+id/Thursday"/>
+                        android:id="@+id/checkThursday"/>
 
                 </TableRow>
                 <TableRow android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:id="@+id/Friday"/>
+                        android:id="@+id/checkFriday"/>
 
                 </TableRow>
                 <TableRow android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:id="@+id/Saturday"/>
+                        android:id="@+id/checkSaturday"/>
 
                 </TableRow>
                 <TableRow android:layout_height="wrap_content"
@@ -155,7 +155,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:id="@+id/Sunday"/>
+                        android:id="@+id/checkSunday"/>
 
                 </TableRow>
 
@@ -173,8 +173,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:id="@+id/time"/>
+                android:id="@+id/et_task"/>
             <Button
+                android:id="@+id/btn_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set time"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textColor="@color/gray"
+                android:background="?android:attr/selectableItemBackground"/>
+            <Button
+                android:id="@+id/btn_save"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/dusty_rouse"
