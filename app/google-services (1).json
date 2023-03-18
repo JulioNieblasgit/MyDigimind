@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "768262096652",
+    "project_id": "mydigimind-de55e",
+    "storage_bucket": "mydigimind-de55e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768262096652:android:b084bb2e843b0abd82ab29",
+        "android_client_info": {
+          "package_name": "nieblas.julio.mydigimind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768262096652-pnqom020htgaql6gh6vngh19o3m232l4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nieblas.julio.mydigimind",
+            "certificate_hash": "89e58d4bf26370f1a6127b4c9dd6dbc057cd5ea6"
+          }
+        },
+        {
+          "client_id": "768262096652-qqbq0qtp8vevgv95p094mnk362u14h8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD3uB5ResDzy3oFRqZwRsLokLx2jLdZik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768262096652-qqbq0qtp8vevgv95p094mnk362u14h8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

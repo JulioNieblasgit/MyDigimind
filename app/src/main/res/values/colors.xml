@@ -12,5 +12,6 @@
     <color name="dusty_rouse">#C875BA</color>
     <color name="gray">#A39F9F</color>
     <color name="navy_blue">#00579A</color>
+    <color name="colorAccent">#C875BA</color>
 
 </resources>
